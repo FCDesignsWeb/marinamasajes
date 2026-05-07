@@ -1,0 +1,193 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* BODY */
+body {
+  font-family: 'Montserrat', sans-serif;
+  background: linear-gradient(to bottom, #f8d7da, #f5e6dc);
+  color: #5a3e3e;
+  scroll-behavior: smooth;
+}
+
+/* HEADER */
+header {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+header img {
+  width: 50%;
+  max-width: 140px;
+  margin-bottom: 15px;
+}
+
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #5a3e3e;
+  font-weight: 400;
+  letter-spacing: 1px;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  color: #b76e79;
+}
+
+/* SECCIONES */
+section {
+  padding: 80px 20px;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  font-size: 42px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+
+.inicio p,
+.servicios p,
+.contacto p {
+  font-size: 18px;
+  max-width: 600px;
+  margin: 10px auto;
+  line-height: 1.6;
+}
+
+/* SECCIÓN SERVICIOS */
+.servicios {
+  background-color: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(5px);
+  border-radius: 20px;
+  margin: 20px;
+}
+
+/* GALERÍA */
+.galeria {
+  background-color: rgba(255, 255, 255, 0.6);
+  padding: 80px 20px;
+}
+
+.contenedor-galeria {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.contenedor-galeria img {
+  width: 100%;
+  max-width: 280px;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+  transition: 0.4s;
+}
+
+.contenedor-galeria img:hover {
+  transform: scale(1.05);
+}
+
+/* CONTACTO */
+.contacto a {
+  color: #b76e79;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.contacto a:hover {
+  text-decoration: underline;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+}
+
+/* BOTÓN WHATSAPP */
+.whatsapp-float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 20px;
+  right: 20px;
+  background-color: #d88c9a;
+  color: #fff;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 30px;
+  line-height: 60px;
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
+  z-index: 999;
+  transition: 0.3s;
+  text-decoration: none;
+}
+
+/* HOVER BOTÓN */
+.whatsapp-float:hover {
+  background-color: #b76e79;
+  transform: scale(1.1);
+}
+
+/* RESPONSIVE */
+@media (max-width: 600px) {
+  section {
+    padding: 40px 15px;
+  }
+
+  nav a {
+    display: block;
+    margin: 10px 0;
+  }
+}
+
+@media (max-width: 400px) {
+  .whatsapp-float {
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
+    line-height: 50px;
+  }
+}
+.instagram-float {
+  position: fixed;
+  bottom: 80px; /* arriba del de WhatsApp */
+  right: 20px;
+  background-color: #E1306C;
+  color: white;
+  font-size: 24px;
+  padding: 12px 14px;
+  border-radius: 50%;
+  text-decoration: none;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  z-index: 1000;
+  transition: transform 0.2s;
+}
+
+.instagram-float:hover {
+  transform: scale(1.1);
+}
+.lista-precios {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.lista-precios img {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 15px;
+}
