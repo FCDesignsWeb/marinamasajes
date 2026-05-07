@@ -153,6 +153,9 @@ footer {
     display: block;
     margin: 10px 0;
   }
+  .banner-turnos p {
+  font-size: 14px;
+}
 }
 
 @media (max-width: 400px) {
@@ -215,4 +218,10 @@ footer {
   to {
     transform: translateX(-100%);
   }
+}
+.telefono-contacto {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #5a3e3e;
 }
