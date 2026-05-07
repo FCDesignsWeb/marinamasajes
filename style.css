@@ -156,6 +156,27 @@ footer {
   .banner-turnos p {
   font-size: 14px;
 }
+h1 {
+  font-size: 34px;
+}
+
+h2 {
+  font-size: 28px;
+}
+
+.inicio p,
+.servicios p,
+.contacto p {
+  font-size: 20px;
+}
+
+header img {
+  width: 70%;
+}
+
+.contenedor-galeria img {
+  max-width: 100%;
+}
 }
 
 @media (max-width: 400px) {
